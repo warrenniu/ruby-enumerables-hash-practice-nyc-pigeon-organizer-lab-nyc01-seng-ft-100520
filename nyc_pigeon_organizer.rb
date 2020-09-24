@@ -16,11 +16,11 @@ data.each_with_object({}) do |(key, value), final_array|
         !final_array[names][key] = []
       end
       final_array[names][key].push(inner_key)
-      binding.pry
+      # binding.pry
     end
 end
 end
-binding.pry
+# binding.pry
 #new hash with pigeon names as keys
 # pigeon_names = {}
 end
